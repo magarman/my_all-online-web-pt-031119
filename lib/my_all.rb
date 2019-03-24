@@ -1,7 +1,8 @@
 require 'pry'
 
 def my_all?(collection)
-  i = 0
+  i = 
+  block_return_values = []
   while i < collection.legth
   
   yield(collection[i])
